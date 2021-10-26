@@ -4,15 +4,15 @@ int main()
 {
 	int n = 0;
 	int m = 0;
-	scanf("%d%d", &n, & m);
+	scanf("%d%d", &n, &m);
 	int max = 0;
 	if (m < n)
 		max = m;
 	else(n < m);
-		max = n;
+	max = n;
 	while (1)
 	{
-		if (n% max == 0 && m % max == 0)
+		if (n % max == 0 && m % max == 0)
 		{
 			printf("%d", max);
 			break;
